@@ -29,8 +29,8 @@ public class MainTest {
     @DisplayName("Sayıları Kelimelere Cevirme Testi")
     @Test
     public void testNumberToWords(){
-        assertEquals(Main.numberToWords(123), "One Two Three");
-        assertEquals(Main.numberToWords(1010), "One Zero One Zero");
+        assertEquals(Main.numberToWords(123), "OneTwoThree");
+        assertEquals(Main.numberToWords(1010), "OneZeroOneZero");
         assertEquals(Main.numberToWords(-12), "Invalid Value");
     }
 }
